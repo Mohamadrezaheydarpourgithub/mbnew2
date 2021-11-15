@@ -1,0 +1,94 @@
+body
+{
+  margin:0;
+  width: 1500px;
+
+
+}
+
+p
+{
+  margin-top: 0;
+}
+
+/********************top contaner******************/
+.contaner-top
+{
+width: 100%;
+
+}
+/* .img-div{
+width: 100%;
+} */
+.top-img{
+width: 100%;
+}
+
+
+.pic-size
+{
+  width: 200px;
+  height: 90px;
+
+}
+.logo{
+  position: relative;
+
+  left: 1200px;
+  bottom: 765px;
+}
+.contact{
+
+  position: relative;
+  left: 200px;
+  color: black;
+  bottom: 650px;
+  font-family: BNasimBold,'BNasimBold',tahoma; 
+
+
+}
+.p-phone{
+  position: relative;
+  left: 28px;
+}
+.mail-icon{
+  position: relative;
+  left: 200px;
+  bottom: 1200px;
+
+}
+.email-img{
+position: relative;
+bottom: 675px;
+  width:2%;
+  height:2%;
+  left: 400px;
+}
+.tel-img{
+  position: relative;
+  bottom: 736px;
+    width:2%;
+    height:2%;
+    left: 400px;
+}
+.background-img{
+  width: 1500px;
+  image-resolution: snap;
+}
+.mid-contaner{
+  background: #CACACA;
+  position: relative;
+bottom: 205px;
+  width: 1500px;
+  height: 300px;
+
+}
+.mid-image{
+  position: relative;
+
+bottom: 450px;
+width: 1200px;
+height: 800px;
+
+
+}

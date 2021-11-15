@@ -1,0 +1,259 @@
+body{
+  margin: 0;
+
+}
+@font-face {
+  font-family: 'samim';
+  src: url('font/samim/Samim.eot');
+  src: url('font/samim/samim.eot?#iefix') format('FontName-opentype'),
+       url('font/samim/Samim.woff') format('woff'),
+       url('font/samim/samim.tff') format('tff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Samim-Bold';
+  src: url('font/samim/Samim-Bold.eot');
+  src: url('font/samim/Samim-Bold.eot?#iefix') format('FontName-opentype'),
+       url('font/samim/Samim-Bold.woff') format('woff'),
+       url('font/samim/Samim-Bold.tff') format('tff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Yekan';
+  src: url('font/Yekan/Yekan.eot');
+  src: url('font/Yekan/Yekan.eot?#iefix') format('FontName-opentype'),
+       url('font/Yekan/Yekan.woff') format('woff'),
+       url('font/Yekan/Yekan.tff') format('tff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'yekan-regular';
+  src: url('font/Yekan/yekan-regular.eot');
+  src: url('font/Yekan/yekan-regular.eot?#iefix') format('FontName-opentype'),
+       url('font/Yekan/yekan-regular.woff') format('woff'),
+       url('font/Yekan/yekan-regular.tff') format('tff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Parastoo';
+  src: url('font/Parastoo/Parastoo.eot');
+  src: url('font/Parastoo/Parastoo.eot?#iefix') format('FontName-opentype'),
+       url('font/Parastoo/Parastoo.woff') format('woff'),
+       url('font/Parastoo/Parastoo.tff') format('tff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Parastoo-Bold';
+  src: url('font/Parastoo/Parastoo-Bold.eot');
+  src: url('font/Parastoo/Parastoo-Bold.eot?#iefix') format('FontName-opentype'),
+       url('font/Parastoo/Parastoo-Bold.woff') format('woff'),
+       url('font/Parastoo/Parastoo-Bold.tff') format('tff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sahel';
+  src: url('font/Sahel/Sahel.eot');
+  src: url('font/Sahel/Sahel.eot?#iefix') format('FontName-opentype'),
+       url('font/Sahel/Sahel.woff') format('woff'),
+       url('font/Sahel/Sahel.tff') format('tff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sahel-Black';
+  src: url('font/Sahel/Sahel-Black.eot');
+  src: url('font/Sahel/Sahel-Black.eot?#iefix') format('FontName-opentype'),
+       url('font/Sahel/Sahel-Black.woff') format('woff'),
+       url('font/Sahel/Sahel-Black.tff') format('tff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sahel-Bold';
+  src: url('font/Sahel/Sahel-Bold.eot');
+  src: url('font/Sahel/Sahel-Bold.eot?#iefix') format('FontName-opentype'),
+       url('font/Sahel/Sahel-Bold.woff') format('woff'),
+       url('font/Sahel/Sahel-Bold.tff') format('tff');
+  font-weight: normal;
+  font-style: normal;
+}
+.top-con{
+  width: 100%;
+
+}
+.top-img{
+  width: 100%;
+
+}
+
+.logo{
+  position: relative;
+  bottom: 41.5625rem;
+  width: 12.5rem;
+  height: 5.625rem;
+  margin: auto;
+  /*left: 1300px;*/
+
+
+}
+.menu{
+   width: 1100px;
+   height: 60px;
+   background-color: #96C7C1;
+   position: relative;
+   bottom: 730px;
+   left: 250px;
+   direction: rtl;
+   border: 2px solid #96C7C1;
+   border-radius: 10px;
+
+
+}
+.menu-li{
+  border-left-color: #CEE5D0;
+}
+.menu-li:hover{
+
+  /*box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.5);*/
+}
+
+.a-menu{
+  text-decoration: none;
+  color: #000000;
+}
+.menu ul{
+  position: relative;
+
+}
+.menu ul li ul{
+  width: 150px;
+  position: absolute;
+  background-color: #C36A2D;
+  margin-right: -8px;
+  padding: 4px 0px;
+  border-radius: 0px 0px 4px 4px;
+  display: none;
+  transition-duration: 0.5s;
+}
+.menu ul li:hover > ul{
+  display: block;
+}
+.menu ul li ul li{
+  width: 90%;
+  font-size: 14px;
+  padding-right: 14px;
+  padding-left: 0px;
+}
+.menu ul li ul li ul{
+  margin-right: 130px;
+  margin-top: -26.5px;
+  border-radius: 5px;
+}
+.menu ul li {
+
+  display: inline-block;
+  padding: 0px 5px;
+  color: #000000;
+/* font-family: BHoma,'BHoma',tahoma;*/
+/*font-family: 'samim';*/
+/*font-family:'Samim-Bold';*/
+font-family: 'Yekan';
+/*font-family: 'yekan-regular';*/
+/*font-family: 'Parastoo';*/
+/*font-family: 'Parastoo-Bold';*/
+/*font-family: 'sahel';*/
+/*font-family: 'Sahel-Black';*/
+/*font-family: 'Sahel-Bold';*/
+
+
+
+
+
+  font-size: 16px;
+  font-weight: 100;
+  transition-duration: 0.7s;
+
+}
+.menu ul li:hover{
+  color: #090910;
+background-color:#CEE5D0;
+
+}
+
+
+.facebook{
+  width: 40px;
+  height: 40px;
+  position: relative;
+
+  left:-1050px;
+  bottom: 52px;
+  background-color: transparent;
+    transition-duration: 0.9s;
+}
+.facebook:hover{
+  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.whatsapp{
+  width: 35px;
+  height: 35px;
+  position: relative;
+
+  left:-965px;
+  bottom: 55px;
+  background-color: transparent;
+    transition-duration: 0.9s;
+}
+.whatsapp:hover{
+  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.insta{
+  width: 35px;
+  height: 35px;
+  position: relative;
+
+  left:-882px;
+  bottom: 54px;
+  background-color: transparent;
+    transition-duration: 0.9s;
+}
+.insta:hover{
+  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.linkedin{
+  width: 35px;
+  height: 35px;
+  position: relative;
+
+  left:-800px;
+  bottom: 54px;
+  background-color: transparent;
+    transition-duration: 0.9s;
+}
+.linkedin:hover{
+  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+
+.mid-con{
+background-color: #C8C6C6;
+height:250px;
+position: relative;
+bottom: 165px;
+
+}
+.img-mid{
+  position: relative;
+  bottom: 330px;
+  width: 60%;
+}
